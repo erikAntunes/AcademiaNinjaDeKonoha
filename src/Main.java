@@ -38,7 +38,7 @@ public class Main {
         vilaDaFolha.matricularAluno(0003,2001);
         vilaDaFolha.matricularAluno(0004,2001);
 
-        System.out.println("ACADEMIA CODING DA VILA OCULTA DA FOLHA");
+        System.out.println("ESCOLA DE CODING DA VILA OCULTA DA FOLHA");
         System.out.println("_________________________________________________________________");
         System.out.println("RA's Disponiveis - 0001 - 0002 - 0003 - 0004 - 0005");
         System.out.println("_________________________________________________________________");
