@@ -41,10 +41,10 @@ public class Professor {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Professor professor = (Professor) o;
+    public boolean equals(Object objeto) {
+        if (this == objeto) return true;
+        if (objeto == null || getClass() != objeto.getClass()) return false;
+        Professor professor = (Professor) objeto;
         return Objects.equals(codigoProfessor, professor.codigoProfessor);
     }
 

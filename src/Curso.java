@@ -73,10 +73,10 @@ public class Curso {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Curso curso = (Curso) o;
+    public boolean equals(Object objeto) {
+        if (this == objeto) return true;
+        if (objeto == null || getClass() != objeto.getClass()) return false;
+        Curso curso = (Curso) objeto;
         return Objects.equals(codigoCurso, curso.codigoCurso);
     }
 
